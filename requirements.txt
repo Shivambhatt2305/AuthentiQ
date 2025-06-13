@@ -147,8 +147,7 @@ srsly==2.4.8
 statsmodels==0.14.4
 tensorboard==2.16.2
 tensorboard-data-server==0.7.2
-tensorflow==2.16.1
-tensorflow-intel==2.16.1
+tensorflow==2.16.2
 termcolor==2.5.0
 textblob==0.18.0.post0
 textstat==0.7.4
@@ -172,3 +171,4 @@ wrapt==1.16.0
 xgboost==2.1.2
 xyzservices==2024.9.0
 yarl==1.17.1
+Cython==3.0.10
