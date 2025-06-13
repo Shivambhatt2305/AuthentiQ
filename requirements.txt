@@ -64,7 +64,6 @@ Jinja2==3.1.4
 joblib==1.4.2
 keras==3.8.0
 Kivy==2.3.0
-kivy_deps.glew==0.3.2
 kivy_deps.sdl2==0.7.0
 Kivy-Garden==0.1.5
 kiwisolver==1.4.5
@@ -87,7 +86,7 @@ multidict==6.1.0
 murmurhash==1.0.10
 mysql-connector-python==9.1.0
 namex==0.0.8
-networkx==3.4.2
+networkx==3.3
 nltk==3.9.1
 numba==0.61.2
 numpy==2.0.2
