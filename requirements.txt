@@ -32,7 +32,7 @@ filelock==3.16.1
 Flask==3.0.3
 Flask-Cors==5.0.0
 Flask-Mail==0.10.0
-flatbuffers==25.2.10
+flatbuffers==24.3.25
 folium==0.18.0
 fonttools==4.53.1
 frozenlist==1.5.0
@@ -117,13 +117,11 @@ Pygments==2.18.0
 pyparsing==3.1.2
 PyPDF2==3.0.1
 pyphen==0.16.0
-pypiwin32==223
 pyserial==3.5
 python-dateutil==2.9.0.post0
 python-docx==1.1.2
 python-dotenv==1.0.1
 pytz==2024.1
-pywin32==307
 PyYAML==6.0.2
 qrcode==8.1
 regex==2024.9.11
@@ -147,10 +145,10 @@ spacy-loggers==1.0.5
 SpeechRecognition==3.11.0
 srsly==2.4.8
 statsmodels==0.14.4
-tensorboard==2.18.0
+tensorboard==2.16.2
 tensorboard-data-server==0.7.2
-tensorflow==2.18.0
-tensorflow_intel==2.18.0
+tensorflow==2.16.1
+tensorflow-intel==2.16.1
 termcolor==2.5.0
 textblob==0.18.0.post0
 textstat==0.7.4
