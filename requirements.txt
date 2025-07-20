@@ -1,48 +1,25 @@
-# Core Dependencies
+# Core
 Flask==3.0.3
 Flask-Cors==5.0.0
-Flask-Mail==0.10.0
-Flask-Session==0.8.0
 gunicorn==23.0.0
-requests==2.31.0
 python-dotenv==1.0.1
-Werkzeug==3.0.1
-Jinja2==3.1.2
-itsdangerous==2.1.2
 
-# Data Science Stack
-pandas==2.1.4  # Downgraded for stability
-numpy==1.26.4  # Matches pandas 2.1.4
+# Data Science
+pandas==2.1.4
+numpy==1.26.4
 scipy==1.11.4
 scikit-learn==1.4.2
 matplotlib==3.8.3
-seaborn==0.13.2
 
 # Machine Learning
-tensorflow==2.15.0  # More stable version
-keras==2.15.0  # Matches TensorFlow
+tensorflow==2.15.0
+keras==2.15.0
 h5py==3.10.0
 
 # Computer Vision
 opencv-python==4.9.0.80
-opencv-contrib-python==4.9.0.80
 Pillow==10.2.0
 
 # NLP
 spacy==3.7.4
 nltk==3.8.1
-transformers==4.36.2
-
-# Audio Processing
-librosa==0.10.1
-soundfile==0.12.1
-pydub==0.25.1
-
-# Database
-psycopg2-binary==2.9.9
-mysql-connector-python==8.3.0
-
-# Utilities
-PyYAML==6.0.1
-python-dateutil==2.9.0
-tqdm==4.66.1
