@@ -1,5 +1,6 @@
 build-essential
 python3-dev
 libffi-dev
-libc6-dev
 libssl-dev
+gcc
+g++
