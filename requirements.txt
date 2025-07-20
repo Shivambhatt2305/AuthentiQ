@@ -1,51 +1,56 @@
+# Core Flask and web dependencies
 Flask==3.0.3
 Flask-Cors==5.0.0
 Flask-Mail==0.10.0
 Flask-Session==0.8.0
-
 gunicorn==23.0.0
-requests==2.32.3
+requests==2.31.0
 python-dotenv==1.0.1
+Werkzeug==3.0.1
+itsdangerous==2.1.2
+Jinja2==3.1.2
+markdown==3.6
 
-pandas==2.2.2
+# Data science and numerical computing
+pandas==2.1.4  # More stable version than 2.2.2
 numpy==1.26.4
-scipy==1.13.1
+scipy==1.11.4
 scikit-learn==1.4.2
 seaborn==0.13.2
-matplotlib==3.9.2
+matplotlib==3.8.3
 
-tensorflow==2.18.0
-keras==3.8.0
+# Machine learning and deep learning
+tensorflow==2.15.0  # More stable version than 2.18.0
+keras==2.15.0  # Matches TensorFlow version
 h5py==3.10.0
 
-opencv-python==4.10.0.82
-opencv-contrib-python==4.10.0.82
+# Computer vision
+opencv-python==4.9.0.80
+opencv-contrib-python==4.9.0.80
 
+# Audio processing
 librosa==0.10.1
 soundfile==0.12.1
 pydub==0.25.1
 SpeechRecognition==3.10.0
 
-spacy==3.8.2
+# NLP
+spacy==3.7.4
 textblob==0.18.0.post0
 langdetect==1.0.9
-transformers==4.46.0
+transformers==4.36.2
 
+# Geo/mapping
 folium==0.15.1
 geopy==2.4.0
 PyYAML==6.0.1
 
-markdown==3.6
-Werkzeug==3.0.1
-itsdangerous==2.1.2
-Jinja2==3.1.2
+# Database connectors (optional)
+psycopg2-binary==2.9.9
+mysql-connector-python==8.3.0
 
-# For Kivy GUI (used locally only)
-Kivy==2.3.1
+# Kivy GUI (local development only)
+Kivy==2.3.0
 kivy-deps.sdl2==0.7.0
 kivy-deps.glew==0.3.1
 Kivy-Garden==0.1.5
-
-# Optional
-psycopg2-binary==2.9.9
-mysql-connector-python==8.3.0
