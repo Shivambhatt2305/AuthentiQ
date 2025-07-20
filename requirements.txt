@@ -66,7 +66,7 @@ joblib==1.4.2
 keras==3.8.0
 Kivy==2.3.1
 Kivy-Garden==0.1.5
-kiwisolver==1.4.5
+kiwisolver==1.4.8
 langcodes==3.4.1
 language_data==1.2.0
 lazy_loader==0.4
